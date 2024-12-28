@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pictures</title>
+</head>
+<body>
+    <!-- Hiển thị từ trên xuống sẽ là từ to về nhỏnhỏ -->
+     <!-- Tương đối giống if, else -->
+    <picture>
+        <source media="(min-width: 600px)" srcset="Pictures/Ex1.png" width=450px>
+        <!--Mặc địnhđịnh-->
+        <img src="Pictures/Ex2.png" width="300">
+    </picture>
+</body>
+</html>
+<!-- Breakpoint phổ biến
+        Bootstrap
+            $grid-breakpoints: (
+                xs: 0,
+                sm: 576px,
+                md: 768px,
+                lg: 992px,
+                xl: 1200px,
+                xxl: 1400px
+            );
+        Material-UI
+            const theme = createTheme({
+                breakpoints: {
+                    values: {
+                    xs: 0,
+                    sm: 600,
+                    md: 900,
+                    lg: 1200,
+                    xl: 1536,
+                    },
+                },
+            });
+
+-->
