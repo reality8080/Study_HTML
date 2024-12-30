@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colspan_RowSpan</title>
+    <!-- Gộp cột và hànghàng -->
+     <style>
+        table{
+            width: 75%;
+            border-collapse: collapse;
+        }
+        td, th{
+            border: 1px solid cyan;
+            text-align: center;
+            padding: 15px;
+        }
+        tr:nth-child(odd){background-color: azure;}
+        tr:nth-child(even){background-color: rgb(187, 226, 34);}
+     </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>A</th>
+            <th>B</th>
+            <th>C</th>
+            <th>D</th>
+        </tr>
+        <tr>
+            <td rowspan="4">Nguyen</td>
+            <td colspan="3">Phu</td>
+            <!--  
+            rowspan là mở rộng theo hàng dọc
+            colspan là mở rộng theo hàng ngang
+            cả 2 cái cùng 1 tr thì xem như cùng hànghàng
+
+
+            -->
+            <!-- <td>Phu</td>
+            <td>Phu</td>
+            <td>Phu</td> -->
+        </tr>
+        <tr>
+            <td>Phu</td>
+            <td>Phu</td>
+            <td>Phu</td>
+            
+        </tr>
+        <tr>
+            <td>Phu</td>
+            <td>Phu</td>
+            <td>Phu</td>
+        </tr>
+        <tr>
+            <td>Phu</td>
+            <td>Phu</td>
+            <td>Phu</td>
+        </tr>
+    </table>
+</body>
+</html>
