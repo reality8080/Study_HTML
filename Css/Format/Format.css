@@ -1,0 +1,24 @@
+b{
+    color: cadetblue;
+    /* Thay đổi màu sắc font chữ */
+    font-size: 23px;
+    /* Thay đổi kích thước của chữ */
+    font-family: 'Times New Roman', Times, serif;
+    /* Thay đổi kiểu chữ */
+    font-weight: 200;
+    /* thay đổi độ dày mỏng */
+    font-style: italic;
+    /* Thay đổi kiểu chữ(in nghiêng, in đậm, gạch chân,...) */
+    text-transform: uppercase;
+    /* Upper, lowerlower */
+    text-align: justify;
+    /* Căn chỉnh dòng */
+    line-height: 100px;
+    /* Thay đổi khoảng cách dòngdòng */
+    letter-spacing: 1px;
+    /* Thay đổi khoảng cách giữa các chữ cái */
+    word-spacing: 5px;
+    /* thay đổi khoảng cách giữa các từ */
+    text-shadow: 10px 3px 15px red;
+    /* Tạo bóng cho chữ */
+}
