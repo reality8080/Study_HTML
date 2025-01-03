@@ -1,0 +1,7 @@
+:root{
+    --p-Color-text:green;
+}
+h1{
+    color: var(--p-Color-text);
+}
+/* :root giống quy định const */
