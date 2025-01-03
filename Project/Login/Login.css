@@ -1,0 +1,101 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: rgba(14, 145, 136, 0.889);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+/* Trang trí nền */
+.login-container{
+    text-align: center;
+    background: rgba(255, 255, 255, 0.212);
+    padding: 30px;
+    border-radius: 8px;
+    width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.311);
+}
+.login-box .icon img{
+    width: 100px;
+    margin-bottom: 15px;
+}
+h2{
+    color: white;
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-weight: 1000;
+}
+
+.input-group{
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+
+.input-group label{
+    color: darkslategray;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 1000;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+
+}/* Thay đổi thuộc tính Label (Email, Password) */
+
+.input-group input{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    font-size: 14px;
+}
+
+.input-group input :focus{
+    outline: none;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.options{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.options label{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.options .forgot-password{
+    color: darkblue;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.options .forgot-password :hover{
+text-decoration: underline;
+}
+
+.login-btn{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: darkslategrey;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.login-btn:hover{
+    background: azure;
+}
