@@ -1,0 +1,14 @@
+.box{
+    width: 100%;
+    height: 100px;
+    background-color: aquamarine;
+}
+/* 
+    % : Phụ thuộc vào thẻ chứa nó (Trong ví dụ thì phụ thuộc vào
+    thẻ body vì thẻ div nằm trong body).
+    rem: Phụ thuộc vào thẻ html.
+    em: Phụ thuộc vào thẻ chứa chứa đơn vị em gần nhất có định
+    nghĩa font-size.
+    vw,vh: viewport-width và viewport-height: Nó sẽ chứa đúng
+    số phần trăm vh và vw tương ứng.
+*/
