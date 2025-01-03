@@ -1,0 +1,9 @@
+.Box{
+    width: 100px;
+    height: 100px;
+    background-color: darkseagreen;
+    padding: 10px;
+    border: 5px  solid darkslategrey;
+    box-sizing: border-box;
+    margin: 10px;
+}
