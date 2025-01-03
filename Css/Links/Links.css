@@ -50,6 +50,81 @@ a:active{
     color: orange;
 }
     Giữ chuột trên link */
+a:first-child{
+    color: aquamarine;
+    font-weight: bold;
+}
+
+a:last-child{
+    color: darksalmon;
+}
+
+a:nth-child(even){
+    background-color: cadetblue;
+}
+/* Vẫn tính các phần tử khác loại nhưng khi áp dụng thì 
+phần tử khác loại sẽ ko thay đổi
+*/
+a:nth-of-type(odd){ 
+    font-style: italic;
+    text-decoration: underline;
+    color: darkcyan;
+}
+/*Chỉ chọn các thẻ cùng thể loại, vị trí đặc biệt (trong "()") 
+sẽ đuợc sửa, ko tính các phần tử khác loại
+*/
+/* a:-webkit-any-link{ 
+    color: rgb(4, 120, 17);
+    text-decoration: dashed;
+    font-size: 23px;
+     Thay đổi kích thước của chữ 
+    font-family : 'Times New Roman', Times, serif;
+     Thay đổi kiểu chữ 
+    font-weight: 200;
+    /* thay đổi độ dày mỏng 
+    font-style: italic;
+    /* Thay đổi kiểu chữ(in nghiêng, in đậm, gạch chân,...) 
+    cursor: pointer;
+    /* Thay đổi con trỏ chuột khi di vào nội dung 
+    background-color: aquamarine;
+    border: 1px solid red;
+    /* Thêm đường viền, dưới đây là các loại khác nhau
+        solid: Đường viền liên tục và không bị ngắt quãng.
+        dashed: Đường viền dạng gạch ngang, có khoảng trống giữa các đoạn.
+        dotted: Đường viền dạng chấm, tạo thành từ các chấm nhỏ.
+        double: Đường viền kép, tạo thành hai đường viền song song.
+        groove: Đường viền tạo hiệu ứng chìm, giống như một rãnh.
+        ridge: Đường viền tạo hiệu ứng nổi, giống như một gờ.
+        inset: Đường viền tạo hiệu ứng chìm vào trong, giống như một ô chứa.
+        outset: Đường viền tạo hiệu ứng nổi lên, giống như một ô nổi.
+    
+    padding: 5px;
+    /* Thêm khoảng cách giữa nội dung của phần tử và viền của nó 
+    margin: 5px;
+    /* Thêm Là khoảng cách giữa viền của phần tử và các phần tử xung quanh
+}*/
+/* 
+Kiểu thứ 1
+a:link{
+    color: aqua;
+}
+    Chưa click vào link
+
+a:visited{
+    color: darkmagenta;
+}
+    Đã click vào link
+
+a:hover{
+    color: red;
+    text-decoration: underline;
+}
+    Di chuột vào link
+
+a:active{
+    color: orange;
+}
+    Giữ chuột trên link */
 /* a:first-child{
     color: aquamarine;
     font-weight: bold;
